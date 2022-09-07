@@ -4,163 +4,219 @@
 <meta charset="UTF-8">
 <title>네이버 화면 일부</title>
 <style type= "text/css">
-	.all {
-	
+	.page {
+	width: 750px;
+	text-align: center;	
+	margin: 0px auto;
 	}
-
-	ul, li {
-		dispaly: block;
+	.header {
+	padding: 0px 0px 7px 0px;
+	}
+	.category {
+		width:750px;
+		height: 49px;
+		position: relative;
+	}
+	ul {
+		font-size: 0px;
+		width: 752px;
+		margin: 0px 0px 0px 0px;
+		display: inline-block;
+		padding: 0px;
+	}
+	li {
+		text-align: center;
+		vertical-align: middle;
+		width: 92px;
+		height: 33px;
+		dispaly: inline-block;
 		list-style-type:none;
 		float: left;
-		text-align: center;
 		font-size: 13px;
-		border-right: 1px solid #dae1e6;
+		border: 1px solid #dae1e6;
+		padding: 14px 0px 0px 0px;
+		
+	}
+	.group_top_story {
+		margin-top: 20px;
+		text-align: left;
+	}
+	.top_story {
+		display: inline-block;
+		padding: 16px 18px 0px 0px;
+		font-size: 13px;
 	}
 	.content {
-		font-size: 12px;
+		font-size: 13px;
+		margin-top:19px;
+	}
+	a {
+		text-decoration: none;
+	}	
 	}
 	.content_area {
 		width: 750px; 
 		height:114px; 
 		margin: 18px 0px 0px 0px;
 		float: left;
+		display: inline-block;
 	}
 	.content_img {
 	width: 170px; 
 	height: 114px;
 	float: left;
+	display: inline-block;
 	}
 	.content_context {
 	width: 580px; 
 	height:114px; 
 	float: left; 
 	display: inline-block; 
-	vertical-align: middle;
 	text-align: left;
-	padding: 23px;
+	margin: 18px 0px 0px 0px;
+	padding: 0px auto;
 	}
-	div {
-		float: left;
+	.more {
+	font-size:12px;
+	color: grey;
 	}
 </style>
 </head>
 <body>
-	<div class="all">
+	<div class="page">
 		<div class="header" style=" width: 750px; height:33.8px;" >
 			<div class= "title area" style=" width: 282.23px; height:16.8px; float: left;" >
 				<strong style="font-size: 14px;">오늘 읽을만한 글</strong>
 				<span style="font-size: 12px; color: grey; margin 0px 0px 0px 8px;">주제별로 분류된 다양한 글모음</span>
 			</div>
 			<div class= "info area" style=" width: 170.76px; height:16px; float: right;" >
-				<span style=" font-size:12px; color: grey;">개의 글</span>
-				<a></a>
+				<span style=" font-size:12px;"><strong>671</strong></span><span style=" font-size:12px; color: grey; border-right: 1px solid #dae1e6;">개의 글 </span>
+				<div style="display: inline-block;">
+					<a style="font-size:12px; color: grey; margin: 0px 0px 0px 5px;"> 관심주제 설정</a>
+				</div>
 			</div>
 		</div>
-		<div class= "category" style=" clear: left;">
+		<div class= "category">
 			<ul>
-				<li>엔터</li>
-				<li>스포츠</li>
-				<li>자동차</li>
-				<li>웹툰</li>
-				<li>경제</li>
-				<li>추천·구독</li>
-				<li>레시피</li>
-				<li>리빙</li>
-				<li>책방</li>
-				<li>패션뷰티</li>
+				<li><b>엔터</b></li>
+				<li><b>스포츠</b></li>
+				<li><b>웹툰</b></li>
+				<li><b>자동차</b></li>
+				<li><b>경제</b></li>
+				<li><b>추천·구독</b></li>
+				<li><b>레시피</b></li>
+				<li><b>책방</b></li>
 			</ul>
 		</div>
-		<div class= "group top story" style=" width: 750px; height:338px;">
-			<div style=" width:364px; height:301px;" float: left;">
-				<div></div>
-				<div></div>
+		<div class= "group_top_story" style=" width: 750px; height:338px;">
+			<div style=" width:364px; height:301px; float: left;">
+				<div style=" width:364px; height:180px; border: 1px solid #dae1e6;">
+					<img style= "width:364px; height: 180px" src="./img/left.jpg">
+				</div>
+				<div class="top_story" style=" width:364px; height:121px;">
+					<b style="color: orange; font-size: 12px;">[오늘의 푸드TV] Food Atelier 푸드아뜰리에</b><br>
+					<p style="margin: 6px 0px 0px 0px;"><strong>향극함 솔솔~ 겉바속초 멜론빵 만들기</strong></p>
+					<p style="margin: 5px 0px 0px 0px; line-height: 22px;">겉은 바삭한 멜론 쿠키 맛이지만<br>
+					속은 부드럽고 맛있는 매력만점 빵</p>
+					<p style="margin: 6px 0px 0px 0px; font-size: 12px;"><span>#홈베이킹 #발효빵</span></p>
+				</div>
 			</div>
-			<div style="  width:364px; height:301px; float: left;">		
-				<div></div>
-				<div></div>
+			<div style="  width:364px; height:301px; float: right;">		
+				<div style=" width:364px; height:180px; border: 1px solid #dae1e6;">
+					<img style= "width:364px; height: 180px" src="./img/right.jpg">
+				</div>
+				<div class="top_story" style=" width:364px; height:121px;">
+					<b style="color: orange; font-size: 12px;">[오늘의 푸드TV] 쥬니엠 집밥레시피</b><br>
+					<p style="margin: 6px 0px 0px 0px;"><strong>뼈가 귀찮은 분들을 위한 순살 닭볶음탕</strong></p>
+					<p style="margin: 5px 0px 0px 0px; line-height: 22px;">맛있는 닭다리살만 한 입 가득!<br>
+					따뜻한 밥을 부르는 밥도둑 메뉴</p>
+					<p style="margin: 6px 0px 0px 0px; font-size: 12px;"><span>#양념장 #국물요리</span></p>
+				</div>
 			</div>	
-		</div>
+		</div><hr>
 		<div class= "content">
-			<ul class="list">
-				<div class="ad" style=" width: 750px; height:114px; float:left;">
+			<div class="list">
+				<div class="content_area">
 					<div class="content_img">
 						<a href="https://g.tivan.naver.com/gfa/ZLOz3wmtpq7jFkX9mXGLDurLymtt-STJFPwbM4kx_YC4_OJ7C6fWROCQbwp0-rPnkrU119KfRCVS7z7lpQeyT1BlWiFtralMI78vSwclHHFDCpYjv2G8jJJedIW7GD8Yy1jHxfMC-4Le5kvTbrKkPDpUJ6HPXZnnmX-vcUlBx-m6v7D0It7cYZ4ZmmIQSqx2HmK8rLUWi8lOPQbS-3OGuQO6iWFNcCvmRYVDV4U9fAbXN38JQu137ckQnQwQreRULjU-iOl6SfLWhcYlEhQr-QmjkvmvL4zG3l8mEfW8_VI2DuCyZqg-mz6LLbTCTS_tR3-afUma3Z4k4qm3ZYDgGW4hsCv3zQZBQo0m2I8bt89gnlOEdcPxE3x5LNk8JgXq_aq0_SEvRdFTivOFGh-RGD9mSsax-l3I7AHXhuNYcLeQ5QBpML8r2VXnKCGFr5xXC5aTQL85HhDDxykdBvLYl9hVfpU3eyaxOIhmfUK2Iopt_qJXkcZSLSinaKRCLBcm4lhpeQQtU_pMLsEXJub-DNCH7NWLOtSWHGwB55lx-wQInQe13NQkDuFW5okmtFsIQ647QFFCgryLz9p2LfYP3BmQ3E3MTvHgtO4W80RJZ3fgvWBCI4plXmvPUxc5mtopASsYxrWe_hrqgJ9aEVwKKG2naK2UwUf07jf467Htf2nAzu5dH29czxscWle3_aguwmI-JyGrDQlV0LYHkCztpN_TkcYJAmnsFI9T8oYUi-U8w-N-JT98gZCbu07VQ1_ipf_fE8Nd5KKSjxA8ke19AB8izkx4rfUdqvfn0KSqUZmUUo2toVxWMQUXwrqmZJBfN0naqkGqwhdXLrXillv_rkFzPnRbj1CuaBy_ebWdEkXccN1p1OjIzQeQOZKbNsXGZUsrd2TUt5ZoO3RXj8dQb1ETXOtFKAcHNsnKP3Mx_xLbsLx5uEKgGZdQomJbqsWDjlKZp3MKsphTh4w_mtIwR8PdHcdiV6Mg8X3_RPD-AwEMFnyF9unuO8ZR25KwXRgEsXheOGbZUcaqN5Wk1xzlz7IVjL6wkWKMMxqluIeHtYw_rZUAFW4fiDdfZS-t-sHZzlzJ_0YEsWZp3Ly2rOlxlCmNX7nVUnQxeoS6ffWRTQDCNZJLxcX3ZwyY6mOGZ0M1MA_FECAfEc2O1bRV0mY4Ka4eVtIHrbxVO5pPQLK7MwFxSgAt9uQ8tzxlI_xgfxd_Dc5aKxHNCpyF6OLz8w8UNWSAcMWDFkxWLimubhwYJ8wxtHiwC1zXuAfKsGkeKH75eq5io5ED-hEjXeoxXNzx7dQfe-VHhdEGYp-OeUFXvQ2nhRUNSZzgMcWZe75oHIf1OB_bJ0hCvSnOeFz0U-AnZXQIuPp0EjtOrg5wA0dpPXR2bAnhi2SPUnN1OPUNRFT3ioLRYmia6f23NBGD6Lv001wN3l5e50qooO_e6CWoPSNhL7O89mkvK4vthlXfwXLHYjQ1XSFVsbzPetsPUD_m-FKPWZwnNGt5pTAWRuM83F172R9ADxbaai5EVdhX3W2Vy90nvR1QntgducGh0d5CaNpU0Jm7gA2zrBeYmErLAuaDxvxxnpifsZmk6L2lYe_N-mMZJmalGK7z1vVqEx5nZKcAWKGFuvOlAVM3tVaq5VUc4idffqtMRA74BmQZXcv5BnrUEg9G9EhUd350bvIEFWE2piRTniPJhaDPUUgBnx9rv82l6W_njKI6roeU_uzwqBVa1JsTxJi9NPB2hzLIrGbTJS6E7tixmzuS4LoRz1ulswTU9Ajwb_roPuKMg8Qe22-BnBkTSjJZuVQHm_aUPopG-_UG6Ib7-iRESKijF4qbohcDyCalLc1ODQuM80ZrAXNmZ-gjQ_xCZp4e25QQDtVC7k9Nd-DfxGP3Y-X85fo4XRRpwqIvRYhvLf9BE4EQpZ5WOttIg2q3Z9hu21B0yB3AZ1EuOfofc2qHKIy90gGbWorg5UVktPlFc0i1_v_4I7VR5jHCirw04vgz4w5Qp8NKLKokAiCQj946SYaSK4RxCKyhAbPtOKa_moW1rSYyC0pkS34aqJozWwxAdQddHx04Ct1vLKaEVZzi-_WnFrSzWXBGPU6lAYLSc1EhXVg5E_kWknIWYo723tPP1qmJDpmlkqOgjY3qNeWtvvWm9-88PIuCKaR0_j40GtnC1eH5VyZ8YJlQSysESUScYn-CdBubB3DjokF7--tv6cVb38CEtdmbTwWDV0w7h-LrW5GiNqQjI5c0Fj6_t06-TcNQAfMvLr8-MwJw9DTECFrdqwX91BoaLQKN-Kq-5_NaQZWqqKvkKDnyfBBPmX6GC9nGYFoFi_jmA-8a2bZZQR5lI0zGh0pWoBkzid6XZx42WD3GWFBmahtHLXnWVseamsOGNw-rOrEOCJgH5WA8Rj-CsRI6E24ME3ZY3GZ0nBSbWg7_jiFKGm1CGA2w9sOsIOU3AhT-gCMWb4GH08L96-PFqsaa7Pu71ZbmSbTR4NKB7tevT7SZM3Tq1Cv_S7RB-m5wy6YNOrVD1AJp8EWtFDMeuwbYtwLSl9MUMwm8ww3t_mK3dwykRXZoctVfK6q3Yqgy3AVGLyNc86eeApjE4phUCUN4nOIgqi8Mmyi1lWGn_HbvmB-Y64TUNH6azWSB1ma-dcyiBAoktDu_VgzidgRszdl-jJKcaqy7xH4BJvQblw125W5QlXgIt-ljODN5tLPPaDuN4fLEM-fuzrX_s1Q4FiV3ev_4gXGT-le8xllkoI-HuDQPf9WIcugP78zS3kVP1w==/" target="_blank">
 							<img src="./img/ad.jpg" style="width: 170px; height: 114px;">
 						</a>
 					</div>
-					<div class="content_context" float: left; display: inline-block;>
+					<div class="content_context" >
 						<a href="https://g.tivan.naver.com/gfa/ZLOz3wmtpq7jFkX9mXGLDurLymtt-STJFPwbM4kx_YC4_OJ7C6fWROCQbwp0-rPnkrU119KfRCVS7z7lpQeyT1BlWiFtralMI78vSwclHHFDCpYjv2G8jJJedIW7GD8Yy1jHxfMC-4Le5kvTbrKkPDpUJ6HPXZnnmX-vcUlBx-m6v7D0It7cYZ4ZmmIQSqx2HmK8rLUWi8lOPQbS-3OGuQO6iWFNcCvmRYVDV4U9fAbXN38JQu137ckQnQwQreRULjU-iOl6SfLWhcYlEhQr-QmjkvmvL4zG3l8mEfW8_VI2DuCyZqg-mz6LLbTCTS_tR3-afUma3Z4k4qm3ZYDgGW4hsCv3zQZBQo0m2I8bt89gnlOEdcPxE3x5LNk8JgXq_aq0_SEvRdFTivOFGh-RGD9mSsax-l3I7AHXhuNYcLeQ5QBpML8r2VXnKCGFr5xXC5aTQL85HhDDxykdBvLYl9hVfpU3eyaxOIhmfUK2Iopt_qJXkcZSLSinaKRCLBcm4lhpeQQtU_pMLsEXJub-DNCH7NWLOtSWHGwB55lx-wQInQe13NQkDuFW5okmtFsIQ647QFFCgryLz9p2LfYP3BmQ3E3MTvHgtO4W80RJZ3fgvWBCI4plXmvPUxc5mtopASsYxrWe_hrqgJ9aEVwKKG2naK2UwUf07jf467Htf2nAzu5dH29czxscWle3_aguwmI-JyGrDQlV0LYHkCztpN_TkcYJAmnsFI9T8oYUi-U8w-N-JT98gZCbu07VQ1_ipf_fE8Nd5KKSjxA8ke19AB8izkx4rfUdqvfn0KSqUZmUUo2toVxWMQUXwrqmZJBfN0naqkGqwhdXLrXillv_rkFzPnRbj1CuaBy_ebWdEkXccN1p1OjIzQeQOZKbNsXGZUsrd2TUt5ZoO3RXj8dQb1ETXOtFKAcHNsnKP3Mx_xLbsLx5uEKgGZdQomJbqsWDjlKZp3MKsphTh4w_mtIwR8PdHcdiV6Mg8X3_RPD-AwEMFnyF9unuO8ZR25KwXRgEsXheOGbZUcaqN5Wk1xzlz7IVjL6wkWKMMxqluIeHtYw_rZUAFW4fiDdfZS-t-sHZzlzJ_0YEsWZp3Ly2rOlxlCmNX7nVUnQxeoS6ffWRTQDCNZJLxcX3ZwyY6mOGZ0M1MA_FECAfEc2O1bRV0mY4Ka4eVtIHrbxVO5pPQLK7MwFxSgAt9uQ8tzxlI_xgfxd_Dc5aKxHNCpyF6OLz8w8UNWSAcMWDFkxWLimubhwYJ8wxtHiwC1zXuAfKsGkeKH75eq5io5ED-hEjXeoxXNzx7dQfe-VHhdEGYp-OeUFXvQ2nhRUNSZzgMcWZe75oHIf1OB_bJ0hCvSnOeFz0U-AnZXQIuPp0EjtOrg5wA0dpPXR2bAnhi2SPUnN1OPUNRFT3ioLRYmia6f23NBGD6Lv001wN3l5e50qooO_e6CWoPSNhL7O89mkvK4vthlXfwXLHYjQ1XSFVsbzPetsPUD_m-FKPWZwnNGt5pTAWRuM83F172R9ADxbaai5EVdhX3W2Vy90nvR1QntgducGh0d5CaNpU0Jm7gA2zrBeYmErLAuaDxvxxnpifsZmk6L2lYe_N-mMZJmalGK7z1vVqEx5nZKcAWKGFuvOlAVM3tVaq5VUc4idffqtMRA74BmQZXcv5BnrUEg9G9EhUd350bvIEFWE2piRTniPJhaDPUUgBnx9rv82l6W_njKI6roeU_uzwqBVa1JsTxJi9NPB2hzLIrGbTJS6E7tixmzuS4LoRz1ulswTU9Ajwb_roPuKMg8Qe22-BnBkTSjJZuVQHm_aUPopG-_UG6Ib7-iRESKijF4qbohcDyCalLc1ODQuM80ZrAXNmZ-gjQ_xCZp4e25QQDtVC7k9Nd-DfxGP3Y-X85fo4XRRpwqIvRYhvLf9BE4EQpZ5WOttIg2q3Z9hu21B0yB3AZ1EuOfofc2qHKIy90gGbWorg5UVktPlFc0i1_v_4I7VR5jHCirw04vgz4w5Qp8NKLKokAiCQj946SYaSK4RxCKyhAbPtOKa_moW1rSYyC0pkS34aqJozWwxAdQddHx04Ct1vLKaEVZzi-_WnFrSzWXBGPU6lAYLSc1EhXVg5E_kWknIWYo723tPP1qmJDpmlkqOgjY3qNeWtvvWm9-88PIuCKaR0_j40GtnC1eH5VyZ8YJlQSysESUScYn-CdBubB3DjokF7--tv6cVb38CEtdmbTwWDV0w7h-LrW5GiNqQjI5c0Fj6_t06-TcNQAfMvLr8-MwJw9DTECFrdqwX91BoaLQKN-Kq-5_NaQZWqqKvkKDnyfBBPmX6GC9nGYFoFi_jmA-8a2bZZQR5lI0zGh0pWoBkzid6XZx42WD3GWFBmahtHLXnWVseamsOGNw-rOrEOCJgH5WA8Rj-CsRI6E24ME3ZY3GZ0nBSbWg7_jiFKGm1CGA2w9sOsIOU3AhT-gCMWb4GH08L96-PFqsaa7Pu71ZbmSbTR4NKB7tevT7SZM3Tq1Cv_S7RB-m5wy6YNOrVD1AJp8EWtFDMeuwbYtwLSl9MUMwm8ww3t_mK3dwykRXZoctVfK6q3Yqgy3AVGLyNc86eeApjE4phUCUN4nOIgqi8Mmyi1lWGn_HbvmB-Y64TUNH6azWSB1ma-dcyiBAoktDu_VgzidgRszdl-jJKcaqy7xH4BJvQblw125W5QlXgIt-ljODN5tLPPaDuN4fLEM-fuzrX_s1Q4FiV3ev_4gXGT-le8xllkoI-HuDQPf9WIcugP78zS3kVP1w==/" target="_blank">
 						<strong>[1300만개 판매]국민 샤워기</strong>
 						</a>
 						<p>우리집 수돗물 지킴이! 13만개가 넘는 극찬후기~<br>
 						가을맞이 최대 ~44% 특가세일! 지금이 기회야</p>
-						<a>더 알아보기</a>
+						<a class="more" href="https://g.tivan.naver.com/gfa/ZLOz3wmtpq7jFkX9mXGLDurLymtt-STJFPwbM4kx_YC4_OJ7C6fWROCQbwp0-rPnkrU119KfRCVS7z7lpQeyT1BlWiFtralMI78vSwclHHFDCpYjv2G8jJJedIW7GD8Yy1jHxfMC-4Le5kvTbrKkPDpUJ6HPXZnnmX-vcUlBx-m6v7D0It7cYZ4ZmmIQSqx2HmK8rLUWi8lOPQbS-3OGuQO6iWFNcCvmRYVDV4U9fAbXN38JQu137ckQnQwQreRULjU-iOl6SfLWhcYlEhQr-QmjkvmvL4zG3l8mEfW8_VI2DuCyZqg-mz6LLbTCTS_tR3-afUma3Z4k4qm3ZYDgGW4hsCv3zQZBQo0m2I8bt89gnlOEdcPxE3x5LNk8JgXq_aq0_SEvRdFTivOFGh-RGD9mSsax-l3I7AHXhuNYcLeQ5QBpML8r2VXnKCGFr5xXC5aTQL85HhDDxykdBvLYl9hVfpU3eyaxOIhmfUK2Iopt_qJXkcZSLSinaKRCLBcm4lhpeQQtU_pMLsEXJub-DNCH7NWLOtSWHGwB55lx-wQInQe13NQkDuFW5okmtFsIQ647QFFCgryLz9p2LfYP3BmQ3E3MTvHgtO4W80RJZ3fgvWBCI4plXmvPUxc5mtopASsYxrWe_hrqgJ9aEVwKKG2naK2UwUf07jf467Htf2nAzu5dH29czxscWle3_aguwmI-JyGrDQlV0LYHkCztpN_TkcYJAmnsFI9T8oYUi-U8w-N-JT98gZCbu07VQ1_ipf_fE8Nd5KKSjxA8ke19AB8izkx4rfUdqvfn0KSqUZmUUo2toVxWMQUXwrqmZJBfN0naqkGqwhdXLrXillv_rkFzPnRbj1CuaBy_ebWdEkXccN1p1OjIzQeQOZKbNsXGZUsrd2TUt5ZoO3RXj8dQb1ETXOtFKAcHNsnKP3Mx_xLbsLx5uEKgGZdQomJbqsWDjlKZp3MKsphTh4w_mtIwR8PdHcdiV6Mg8X3_RPD-AwEMFnyF9unuO8ZR25KwXRgEsXheOGbZUcaqN5Wk1xzlz7IVjL6wkWKMMxqluIeHtYw_rZUAFW4fiDdfZS-t-sHZzlzJ_0YEsWZp3Ly2rOlxlCmNX7nVUnQxeoS6ffWRTQDCNZJLxcX3ZwyY6mOGZ0M1MA_FECAfEc2O1bRV0mY4Ka4eVtIHrbxVO5pPQLK7MwFxSgAt9uQ8tzxlI_xgfxd_Dc5aKxHNCpyF6OLz8w8UNWSAcMWDFkxWLimubhwYJ8wxtHiwC1zXuAfKsGkeKH75eq5io5ED-hEjXeoxXNzx7dQfe-VHhdEGYp-OeUFXvQ2nhRUNSZzgMcWZe75oHIf1OB_bJ0hCvSnOeFz0U-AnZXQIuPp0EjtOrg5wA0dpPXR2bAnhi2SPUnN1OPUNRFT3ioLRYmia6f23NBGD6Lv001wN3l5e50qooO_e6CWoPSNhL7O89mkvK4vthlXfwXLHYjQ1XSFVsbzPetsPUD_m-FKPWZwnNGt5pTAWRuM83F172R9ADxbaai5EVdhX3W2Vy90nvR1QntgducGh0d5CaNpU0Jm7gA2zrBeYmErLAuaDxvxxnpifsZmk6L2lYe_N-mMZJmalGK7z1vVqEx5nZKcAWKGFuvOlAVM3tVaq5VUc4idffqtMRA74BmQZXcv5BnrUEg9G9EhUd350bvIEFWE2piRTniPJhaDPUUgBnx9rv82l6W_njKI6roeU_uzwqBVa1JsTxJi9NPB2hzLIrGbTJS6E7tixmzuS4LoRz1ulswTU9Ajwb_roPuKMg8Qe22-BnBkTSjJZuVQHm_aUPopG-_UG6Ib7-iRESKijF4qbohcDyCalLc1ODQuM80ZrAXNmZ-gjQ_xCZp4e25QQDtVC7k9Nd-DfxGP3Y-X85fo4XRRpwqIvRYhvLf9BE4EQpZ5WOttIg2q3Z9hu21B0yB3AZ1EuOfofc2qHKIy90gGbWorg5UVktPlFc0i1_v_4I7VR5jHCirw04vgz4w5Qp8NKLKokAiCQj946SYaSK4RxCKyhAbPtOKa_moW1rSYyC0pkS34aqJozWwxAdQddHx04Ct1vLKaEVZzi-_WnFrSzWXBGPU6lAYLSc1EhXVg5E_kWknIWYo723tPP1qmJDpmlkqOgjY3qNeWtvvWm9-88PIuCKaR0_j40GtnC1eH5VyZ8YJlQSysESUScYn-CdBubB3DjokF7--tv6cVb38CEtdmbTwWDV0w7h-LrW5GiNqQjI5c0Fj6_t06-TcNQAfMvLr8-MwJw9DTECFrdqwX91BoaLQKN-Kq-5_NaQZWqqKvkKDnyfBBPmX6GC9nGYFoFi_jmA-8a2bZZQR5lI0zGh0pWoBkzid6XZx42WD3GWFBmahtHLXnWVseamsOGNw-rOrEOCJgH5WA8Rj-CsRI6E24ME3ZY3GZ0nBSbWg7_jiFKGm1CGA2w9sOsIOU3AhT-gCMWb4GH08L96-PFqsaa7Pu71ZbmSbTR4NKB7tevT7SZM3Tq1Cv_S7RB-m5wy6YNOrVD1AJp8EWtFDMeuwbYtwLSl9MUMwm8ww3t_mK3dwykRXZoctVfK6q3Yqgy3AVGLyNc86eeApjE4phUCUN4nOIgqi8Mmyi1lWGn_HbvmB-Y64TUNH6azWSB1ma-dcyiBAoktDu_VgzidgRszdl-jJKcaqy7xH4BJvQblw125W5QlXgIt-ljODN5tLPPaDuN4fLEM-fuzrX_s1Q4FiV3ev_4gXGT-le8xllkoI-HuDQPf9WIcugP78zS3kVP1w==/" target="_blank">
+							더 알아보기 &gt</a>
 					</div>
 				</div>
-				<li class="content_area">
-					<div class="content_img" >
+			</div>
+				<div class="content_area">
+					<div class="content_img">
 						<a href="https://blog.naver.com/swimmy0418/222799642996" target="_blank">
-							<img src="./img/1.jpg" style="width: 170px; height: 114px;>						
-						</a>					
+							<img src="./img/1.jpg" style="width: 170px; height: 114px;">
+						</a>
 					</div>
 					<div class="content_context" >
 						<a href="https://blog.naver.com/swimmy0418/222799642996" target="_blank">
 						<strong>오이말랭이 진미채무침, 별미 반찬 만들기</strong>
 						</a>
-						<p>오이말랭이 진미채무침, 별미 반찬 만들기 오이 말랭이를 이용해 별미 밑반찬을 하나 만들<hr>
+						<p>오이말랭이 진미채무침, 별미 반찬 만들기 오이 말랭이를 이용해 별미 밑반찬을 하나 만들<br>
 						어봤어요. 꼬들꼬들한 오이 말랭이로 만드는 #고추장진미 는 밥반찬으로도 좋지만 물이...</p>
-						<a></a>
-					</div>				
-				</div>
-				<li class="content_area">
+						<a class="more" href="https://blog.naver.com/swimmy0418/222799642996" target="_blank">수씨부인 · 1일전</a>
+					</div>
+				</div>							
+				<div class="content_area">
 					<div class="content_img">	
 						<a href="https://blog.naver.com/sandafe1219/222859189404" target="_blank">
-							<img src="./img/2.jpg" style="width: 170px; height: 114px;>						
+							<img src="./img/2.jpg" style="width: 170px; height: 114px;">						
 						</a>					
 					</div>
 					<div class="content_context">
 						<a href="https://blog.naver.com/sandafe1219/222859189404" target="_blank">
 						<strong>팽이버섯전 팽이버섯요리 전종류 돌돌말은 팽이버섯전말이 손님초대 핑거푸드 파티메...</strong>
 						</a>
-						<p>쫄깃거리는 식감이 아주 좋은 팽이버섯과 알록달록 채소와 만난 맛있는 전요리,팽이버섯<hr>
+						<p>쫄깃거리는 식감이 아주 좋은 팽이버섯과 알록달록 채소와 만난 맛있는 전요리,팽이버섯<br>
 							전말이롤입니다. 평범한 전요리가 아니라 한입크기로 돌돌말은 핑거푸드식 전요리 손님...
 						</p>
-						<a></a>
+						<a class="more" href="https://blog.naver.com/sandafe1219/222859189404" target="_blank">블루키위 · 2주전</a>
 					</div>				
 				</div>
-				<li class="content_area" >
+				<div class="content_area" >
 					<div class="content_img">
-						<a href=""https://blog.naver.com/choiblossom-/222842984479" target="_blank">
-								<img src="./img/3.jpg" style="width: 170px; height: 114px;>						
-						</a>					
+						<a href="https://blog.naver.com/choiblossom-/222842984479" target="_blank">
+								<img src="./img/3.jpg" style="width: 170px; height: 114px;"></a>					
 					</div>
 					<div class="content_context">
 						<a href="https://blog.naver.com/choiblossom-/222842984479" target="_blank">
 						<strong>분홍소시지요리 아이반찬 꽃계란프라이 만드는법</strong>
 						</a>
-						<p>분홍소세지요리 꽃계란후라이 만드는 법 계란 요리를 참 좋아하는 곰둥이네에요. 특히 계<hr>
+						<p>분홍소세지요리 꽃계란후라이 만드는 법 계란 요리를 참 좋아하는 곰둥이네에요. 특히 계<br>
 							란후라이는 저도 아이들도 좋아해서 정말 자주 만들어 먹는데, 동그란 계란후라이 말고 ...
 						</p>
-						<a></a>
+						<a class="more" href="https://blog.naver.com/choiblossom-/222842984479" target="_blank">곰둥이댁 · 3일전</a>
 					</div>				
-				</div>
-				<li class="content_area">
+				</div>			
+				<div class="content_area">
 					<div class="content_img">
 						<a href="https://blog.naver.com/freshtea/222846026320" target="_blank">
-								<img src="./img/4.jpg" style="width: 170px; height: 114px;>						
+								<img src="./img/4.jpg" style="width: 170px; height: 114px;">						
 						</a>					
 					</div>
 					<div class="content_context">
 						<a href="https://blog.naver.com/freshtea/222846026320" target="_blank">
 						<strong>두부계란찜! 영양만점 반찬~</strong>
 						</a>
-						<p>안녕하세요. 아름드리입니다.^^ 비가 그칠 듯...하면서도 그치지 않고 계속 내리<hr>
+						<p>안녕하세요. 아름드리입니다.^^ 비가 그칠 듯...하면서도 그치지 않고 계속 내리<br>
 							고 있는데요.ㅠㅠ 이웃님들 비 피해 없으신지 모르겠네요~ 오늘은 된장찌개 끓인다고 ...
 						</p>
-						<a></a>
-					</div>				
-				</div>
-			</ul>
+						<a class="more" href="https://blog.naver.com/freshtea/222846026320" target="_blank">아름드리 · 5일전</a>
+					</div>
+				</div>					
+				</div>				
+			</div>
 		</div>
 	</div>	
 </body>
